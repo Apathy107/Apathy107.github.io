@@ -1,0 +1,41 @@
+{
+  "routes": [
+    {
+      "path": "/login",
+      "src": "src/pages/Login.tsx"
+    },
+    {
+      "path": "/",
+      "src": "src/pages/AccidentList.tsx"
+    },
+    {
+      "path": "/accident/:id",
+      "src": "src/pages/AccidentDetail.tsx"
+    },
+    {
+      "path": "/editor/:id",
+      "src": "src/pages/DrawingEditor.tsx"
+    },
+    {
+      "path": "/records",
+      "src": "src/pages/Records.tsx" 
+    },
+    {
+      "path": "/record-editor",
+      "src": "src/pages/RecordEditor.tsx"
+    },
+    {
+      "path": "/stats",
+      "src": "src/pages/AccidentList.tsx"
+    }
+  ],
+  "components": [
+    {"name": "DashboardLayout", "src": "src/layouts/DashboardLayout.tsx"},
+    {"name": "DrawingEditor", "src": "src/pages/DrawingEditor.tsx"},
+    {"name": "AccidentList", "src": "src/pages/AccidentList.tsx"},
+    {"name": "AccidentDetail", "src": "src/pages/AccidentDetail.tsx"},
+    {"name": "Login", "src": "src/pages/Login.tsx"},
+    {"name": "Records", "src": "src/pages/Records.tsx"},
+    {"name": "RecordEditor", "src": "src/pages/RecordEditor.tsx"}
+  ]
+}
